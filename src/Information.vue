@@ -67,7 +67,7 @@
                             flat
                             solo
                             class="mb-2 mt-3"
-                            label="Enter here the information you want to send"
+                            label="Please enter here the information you want to send"
                             maxlength="500"
                             multi-line
                             single-line
@@ -175,7 +175,10 @@ export default {
             //     .catch(err => this.announceError())
 
             setTimeout(() => {
-                if (Math.random() > 0.5) this.announceSuccess()
+                if (Math.random() > 0.5) {
+                    this.announceSuccess()
+                    this.$refs.form.reset()
+                }
                 else this.announceError()
             }, 500)
         },
