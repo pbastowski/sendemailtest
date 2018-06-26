@@ -172,7 +172,7 @@ export default {
             // axios
             //     .post('/api/sendmail', this.data)
             //     .then(result => this.announceSuccess())
-            //     .catch((err = this.announceError()))
+            //     .catch(err => this.announceError())
 
             setTimeout(() => {
                 if (Math.random() > 0.5) this.announceSuccess()
