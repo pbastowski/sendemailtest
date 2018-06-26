@@ -10,13 +10,14 @@
     "vuelidate": "0.7.4",
     "vuetify": "next"
   },
-
   "devDependencies": {
     "@vue/cli": "^3.0.0-rc.3",
-    "@vue/cli-service": "^3.0.0-rc.3"
+    "@vue/cli-service": "^3.0.0-rc.3",
+    "push-dir": "^0.4.1"
   },
   "scripts": {
-    "start": "npx vue-cli-service serve src/main.js",
-    "build": "npx vue-cli-service build"
+    "start": "vue-cli-service serve src/main.js",
+    "build": "vue-cli-service build",
+    "deploy": "push-dir --dir=docs --branch=gh-pages --cleanup"
   }
 }
