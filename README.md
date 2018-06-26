@@ -1,4 +1,4 @@
-# Email Necessary Information
+# Email the Necessary Information
 
 ## Installation
 
