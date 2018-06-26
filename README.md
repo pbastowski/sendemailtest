@@ -1,5 +1,7 @@
 # Email the Necessary Information
 
+See demo (here)[https://pbastowski.github.io/sendemailtest/]
+
 ## Installation
 
 Clone this repo to your system using git, as shown below. Please note that I developed and tested this web app on a MacOS. It was not tested on Windows or Linux.
