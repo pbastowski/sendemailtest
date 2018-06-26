@@ -15,11 +15,15 @@ Next, install the npm packages required
 
 And finally start the development server
 
-    npm run serve
+    npm start
 
 When it's done compiling and bundling it will announce on which localhost port it is serving the app. 
 
-## How to use it
+## How to start and the app
+
+To start the app, from it's root folder execute the command below and wait for the build process to finish and tell you on what localhost port your app is being served.
+
+    npm start
 
 This app is a front-end to a currently non-existent backend. When you click send it simply simulates a send and dumps the data it would send to the dev console.
  
@@ -27,6 +31,12 @@ It also displays a friendly success toast message, or an error message, dependin
 
 If you press `SEND` several times, you are bound to hit an error condition and see the Error toast message. 
  
+## Build system
+
+This Vue repo is based on (vue-cli 3)[https://cli.vuejs.org/]. It uses a zero-config setup, which is why there is no index.html file to be found or any webpack configuration. It is all taken care of for us. 
+
+In a real production setup we could extend the webpack config with our own loaders, possibly build multiple output "index.html" files and maybe trigger tasks after webpack has finished building. 
+
 ## Libraries used
 
 In no particular order

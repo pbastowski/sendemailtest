@@ -10,13 +10,3 @@
         </v-app>
     </div>
 </template>
-
-<script>
-    export default {}
-</script>
-
-<style>
-    .b1 {
-        border: 1px dashed red;
-    }
-</style>
