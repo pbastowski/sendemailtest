@@ -148,6 +148,7 @@ export default {
                 to: '',
                 cc: '',
                 bcc: '',
+                subject: 'necessary information',
                 information: ''
             },
 
