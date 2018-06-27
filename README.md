@@ -58,7 +58,7 @@ Although vue-router is not strictly required, I added it just to show how it's d
 
 I used the Vuetify library, which provides Vue material-design components. It is one of the best and most comprehensive, feature wise, component libraries available for VueJs, if you like material design. For example, it provides form validations out of the box. 
 
-I only used the email validation function from the vuelidate library. It uses a RegEx to validate individual email and I implemented the multiple email validation useing it.
+I only used the email validation function from the vuelidate library. It uses a RegEx to validate individual email and I implemented the multiple email validation using it.
 
 What about Vuex? I ran out of time to set that up. If you want, I can show you lots of Vuex code that I wrote: with modules and name-spaced modules, modules registered at runtime within an AngularJs wrapper.
 
