@@ -21,7 +21,7 @@ And finally start the development server
 
 When it's done compiling and bundling it will announce on which localhost port it is serving the app. 
 
-## How to start and the app
+## How to start and use the app
 
 To start the app, from it's root folder execute the command below and wait for the build process to finish and tell you on what localhost port your app is being served.
 
