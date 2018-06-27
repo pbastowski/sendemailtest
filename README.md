@@ -41,7 +41,7 @@ If any of the entered emails are invalid the user will be notified accordingly a
 
 ## Build system
 
-This Vue repo is based on (vue-cli 3)[https://cli.vuejs.org/]. It uses a zero-config setup, which is why there is no index.html file to be found or any webpack configuration. It is all taken care of for us. 
+This Vue repo is based on [vue-cli 3](https://cli.vuejs.org/). It uses a zero-config setup, which is why there is no index.html file to be found or any webpack configuration. It is all taken care of for us. 
 
 In a real production setup we could extend the webpack config with our own loaders, possibly build multiple output "index.html" files and maybe trigger tasks after webpack has finished building. 
 
