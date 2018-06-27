@@ -56,7 +56,7 @@ In no particular order
  
 Although vue-router is not strictly required, I added it just to show how it's done, if we were to add more forms and modules.
 
-I used the Vuetify library, which provides Vue material-design components. It is one of the best and most cmnprehensive, feature wise, component libraries available for VueJs, if you like material design. For example, it provides form validations out of th box. 
+I used the Vuetify library, which provides Vue material-design components. It is one of the best and most comprehensive, feature wise, component libraries available for VueJs, if you like material design. For example, it provides form validations out of the box. 
 
 I only used the email validation function for the vuelidate library.  
 
