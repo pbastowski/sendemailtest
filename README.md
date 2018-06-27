@@ -32,7 +32,13 @@ This app is a front-end to a currently non-existent backend. When you click send
 It also displays a friendly success toast message, or an error message, depending on the random value returned in the simulator.
 
 If you press `SEND` several times, you are bound to hit an error condition and see the Error toast message. 
- 
+
+Multiple email addresses may be entered in to, cc and bcc, separated with a `;`, for example
+
+    tom@home.nl; jodie@abc.com
+
+If any of the entered emails are invalid the user will be notified accordingly and a small message will appear below the input field that needs fixing.
+
 ## Build system
 
 This Vue repo is based on (vue-cli 3)[https://cli.vuejs.org/]. It uses a zero-config setup, which is why there is no index.html file to be found or any webpack configuration. It is all taken care of for us. 
